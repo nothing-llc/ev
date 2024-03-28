@@ -2413,6 +2413,10 @@
 		(color 0 0 0 0)
 		(uuid "e20cfbab-e569-4c82-8196-c0c04dc6c97c")
 	)
+	(no_connect
+		(at 93.98 173.99)
+		(uuid "e39b769c-469d-48b9-be84-393e34a92859")
+	)
 	(wire
 		(pts
 			(xy 204.47 63.5) (xy 207.01 63.5)
@@ -2542,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "3c37c2ea-dc99-4376-95d3-f134b943b241")
+	)
+	(wire
+		(pts
+			(xy 93.98 176.53) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5732b7-cac0-405b-b6cd-3f238ea0e14a")
 	)
 	(wire
 		(pts
@@ -2775,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 166.37) (xy 99.06 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9793e807-261b-4425-92a9-5eab4858a62f")
+	)
+	(wire
+		(pts
 			(xy 204.47 71.12) (xy 207.01 71.12)
 		)
 		(stroke
@@ -2842,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "aa9f50ae-dc51-4b24-bf67-c0a82418d547")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae91171e-324b-45b7-b063-45b8b03f86f2")
 	)
 	(wire
 		(pts
@@ -3067,6 +3101,28 @@
 			)
 		)
 	)
+	(global_label "ADC-SDA"
+		(shape input)
+		(at 99.06 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b0908e5-181f-4fb1-ad73-20ec660ad13d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8143 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RF-IN"
 		(shape input)
 		(at 50.8 63.5 180)
@@ -3090,6 +3146,28 @@
 		)
 	)
 	(global_label "ADC-CS"
+		(shape input)
+		(at 99.06 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6af36d0d-1448-4b36-a9f5-dd5c12ed5ea0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.7257 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC-CS"
 		(shape output)
 		(at 207.01 71.12 0)
 		(fields_autoplaced yes)
@@ -3102,6 +3180,28 @@
 		(uuid "8d9db0ee-e4f3-470e-b003-336957a331c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.6757 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC-SCK"
+		(shape input)
+		(at 99.06 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93fa8381-56ac-4b83-854c-e1cfe23cb320")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.9957 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
