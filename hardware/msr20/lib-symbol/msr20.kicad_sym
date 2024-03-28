@@ -118,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -10.16 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -6.35 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -2.54 180)
+				(at 8.89 -10.16 180)
 				(length 2.54)
 				(name "CS"
 					(effects
