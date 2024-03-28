@@ -233,7 +233,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 3.81 0)
+				(at -2.54 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -251,7 +251,7 @@
 				)
 			)
 			(pin output line
-				(at -7.62 0 0)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "IF"
 					(effects
@@ -269,7 +269,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
+				(at -7.62 3.81 0)
 				(length 2.54)
 				(name "RF"
 					(effects
@@ -287,7 +287,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -305,7 +305,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 0 180)
+				(at 2.54 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -323,7 +323,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 3.81 180)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "LO"
 					(effects
@@ -420,25 +420,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -6.35 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -2.54 180)
+				(at -1.27 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -456,7 +438,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -6.35 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -466,6 +448,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
