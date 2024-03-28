@@ -967,7 +967,7 @@
 		(symbol "CD74HC4046_1_1"
 			(rectangle
 				(start -8.89 0)
-				(end 8.89 -30.48)
+				(end 8.89 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -1025,7 +1025,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -20.32 0)
+				(at -11.43 -22.86 0)
 				(length 2.54)
 				(name "R1"
 					(effects
@@ -1043,7 +1043,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -22.86 0)
+				(at -11.43 -25.4 0)
 				(length 2.54)
 				(name "R2"
 					(effects
@@ -1187,7 +1187,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -27.94 0)
+				(at -11.43 -33.02 0)
 				(length 2.54)
 				(name "INH"
 					(effects
@@ -1241,7 +1241,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -33.02 90)
+				(at 0 -38.1 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1259,7 +1259,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -25.4 0)
+				(at -11.43 -30.48 0)
 				(length 2.54)
 				(name "VCO-I"
 					(effects
