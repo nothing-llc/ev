@@ -464,7 +464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -633,7 +633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_LandPatternPL-052"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -802,7 +802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "msr20:BGA616"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "msr20:LTC455"
 			(at 0 0 0)
 			(effects
 				(font
