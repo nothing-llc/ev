@@ -1,4 +1,4 @@
-23158899670842415
+23160611350288502
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94774,6 +94774,13 @@ SOT-343 SC-70-4
 4
 msr20
 LTC455
+
+
+0
+3
+3
+msr20
+RF-BPF
 
 
 0
