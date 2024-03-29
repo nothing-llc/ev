@@ -4164,7 +4164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "msr20:BGA616"
 			(at 120.65 60.96 0)
 			(effects
 				(font
@@ -4442,7 +4442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "msr20:RF-BPF"
 			(at 71.12 60.96 0)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "msr20:ADE-1+"
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -5348,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 195.58 60.96 0)
 			(effects
 				(font
