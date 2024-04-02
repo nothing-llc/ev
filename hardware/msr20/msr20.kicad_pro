@@ -404,6 +404,10 @@
     [
       "879e4ab0-ee5d-4d03-b0f3-e28ce814003c",
       "Phase-Locked Loop"
+    ],
+    [
+      "ecbecf70-ff01-45d8-9edb-793a669fb5da",
+      "Power"
     ]
   ],
   "text_variables": {}
