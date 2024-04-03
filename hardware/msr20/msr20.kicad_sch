@@ -2419,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 63.5) (xy 207.01 63.5)
+			(xy 217.17 63.5) (xy 219.71 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 71.12) (xy 207.01 71.12)
+			(xy 217.17 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 55.88) (xy 195.58 58.42)
+			(xy 208.28 55.88) (xy 208.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 195.58 78.74)
+			(xy 208.28 76.2) (xy 208.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 67.31) (xy 207.01 67.31)
+			(xy 217.17 67.31) (xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3047,19 +3047,9 @@
 		)
 		(uuid "f4ee64b6-8e32-4af8-8e92-c2629f28b6e6")
 	)
-	(wire
-		(pts
-			(xy 181.61 67.31) (xy 186.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7ad025-bca6-4082-b954-110fca42c9e8")
-	)
 	(global_label "ADC-SCK"
 		(shape output)
-		(at 207.01 67.31 0)
+		(at 219.71 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3069,7 +3059,7 @@
 		)
 		(uuid "027aa148-da43-4d86-9383-ef8e8401443b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9457 67.31 0)
+			(at 231.6457 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3071,7 @@
 	)
 	(global_label "ADC-SDA"
 		(shape output)
-		(at 207.01 63.5 0)
+		(at 219.71 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3091,7 +3081,7 @@
 		)
 		(uuid "114bc0d2-3797-4ad7-9f95-6fcb894daedd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7643 63.5 0)
+			(at 231.4643 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3159,7 @@
 	)
 	(global_label "ADC-CS"
 		(shape output)
-		(at 207.01 71.12 0)
+		(at 219.71 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3179,7 +3169,7 @@
 		)
 		(uuid "8d9db0ee-e4f3-470e-b003-336957a331c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6757 71.12 0)
+			(at 230.3757 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.05 62.5348 0)
 			(effects
 				(font
@@ -3505,7 +3495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 49.8348 0)
 			(effects
 				(font
@@ -3573,7 +3563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127 52.578 90)
 			(effects
 				(font
@@ -3907,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
 			(at 76.2 152.4 90)
 			(effects
 				(font
@@ -4307,7 +4297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 73.66 0)
 			(effects
 				(font
@@ -4530,7 +4520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 134.62 43.18 0)
 			(effects
 				(font
@@ -4598,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.61 66.3448 0)
 			(effects
 				(font
@@ -4732,7 +4722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -4776,7 +4766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 78.74 0)
+		(at 208.28 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4785,7 +4775,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2218cbd-f69f-419d-88f7-e320bfd2ae57")
 		(property "Reference" "#PWR08"
-			(at 195.58 85.09 0)
+			(at 208.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 83.82 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 78.74 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 78.74 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 78.74 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5246,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 195.58 55.88 0)
+		(at 208.28 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5265,7 +5255,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f1e6ed-16ce-4179-9197-7fde26f8819d")
 		(property "Reference" "#PWR07"
-			(at 195.58 59.69 0)
+			(at 208.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5264,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 195.58 50.8 0)
+			(at 208.28 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 55.88 0)
+			(at 208.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 55.88 0)
+			(at 208.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 195.58 55.88 0)
+			(at 208.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5312,7 @@
 	)
 	(symbol
 		(lib_id "msr20:AD7478")
-		(at 195.58 60.96 0)
+		(at 208.28 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5331,7 +5321,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9610c06-9c69-4fd3-994c-c230644e24ac")
 		(property "Reference" "U4"
-			(at 197.7741 55.88 0)
+			(at 210.4741 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5330,7 @@
 			)
 		)
 		(property "Value" "AD7478"
-			(at 197.7741 58.42 0)
+			(at 210.4741 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5339,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 195.58 60.96 0)
+			(at 208.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 60.96 0)
+			(at 208.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 60.96 0)
+			(at 208.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
