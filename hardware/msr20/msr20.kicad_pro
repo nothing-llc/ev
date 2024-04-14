@@ -601,6 +601,14 @@
     [
       "ecbecf70-ff01-45d8-9edb-793a669fb5da",
       "Power"
+    ],
+    [
+      "585458a5-998e-4f63-a5a4-45d71155a4e5",
+      "IF Stage"
+    ],
+    [
+      "d4efeb94-5cf1-43a2-925a-fd36115a5e3e",
+      "RF Stage"
     ]
   ],
   "text_variables": {}
