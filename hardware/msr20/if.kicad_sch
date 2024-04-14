@@ -1986,7 +1986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 73.66 0)
 			(effects
 				(font
@@ -2054,7 +2054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 96.52 88.9 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 87.9348 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 168.91 69.85 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 126.0348 78.74 0)
 			(effects
 				(font
@@ -2592,7 +2592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.51 62.5348 0)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 168.91 57.15 0)
 			(effects
 				(font
@@ -2937,7 +2937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 167.132 82.55 90)
 			(effects
 				(font
@@ -3007,7 +3007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 131.572 107.95 90)
 			(effects
 				(font
@@ -3077,7 +3077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -3297,7 +3297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.4752 111.76 0)
 			(effects
 				(font
@@ -3365,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 52.07 88.9 0)
 			(effects
 				(font
