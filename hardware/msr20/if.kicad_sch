@@ -1387,12 +1387,6 @@
 		(uuid "469a6e06-f29a-400b-9362-49cf8cdefa28")
 	)
 	(junction
-		(at 106.68 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52e1f17d-b4fc-4f0b-858c-6385665f014c")
-	)
-	(junction
 		(at 156.21 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1636,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 110.49 88.9)
+			(xy 100.33 88.9) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1846,16 +1840,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 106.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be0913f5-4e0b-42f5-a779-b8599a420c52")
-	)
-	(wire
-		(pts
 			(xy 152.4 99.06) (xy 152.4 101.6)
 		)
 		(stroke
@@ -1993,16 +1977,6 @@
 			(type default)
 		)
 		(uuid "ed9f1446-6b7e-43fb-bb67-4c7d8930ef37")
-	)
-	(wire
-		(pts
-			(xy 100.33 88.9) (xy 106.68 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef727b46-9286-433f-8625-700468f44c93")
 	)
 	(wire
 		(pts
@@ -3864,73 +3838,6 @@
 			(project "msr20"
 				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e206b1d5-0e28-4f31-a5d6-ec9874d8646a")
-		(property "Reference" "TP5"
-			(at 109.22 94.7419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.22 97.2819 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1383d5b9-9d7e-4e5a-a3e4-a9ffa820b63c")
-		)
-		(instances
-			(project "msr20"
-				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
