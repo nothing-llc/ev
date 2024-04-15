@@ -10,6 +10,108 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1279,6 +1381,18 @@
 		(uuid "344752d7-4596-4c39-9191-b6e435fe0b69")
 	)
 	(junction
+		(at 181.61 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "469a6e06-f29a-400b-9362-49cf8cdefa28")
+	)
+	(junction
+		(at 106.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e1f17d-b4fc-4f0b-858c-6385665f014c")
+	)
+	(junction
 		(at 156.21 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1289,6 +1403,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be077a3-e91c-4487-b6b5-0a51400e767a")
+	)
+	(junction
+		(at 45.72 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7741b939-2855-4f0b-aaec-c702ac9ef038")
 	)
 	(junction
 		(at 168.91 63.5)
@@ -1456,6 +1576,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ddef2f-1666-4d1e-a12d-098ee1997a12")
+	)
+	(wire
+		(pts
 			(xy 143.51 101.6) (xy 143.51 104.14)
 		)
 		(stroke
@@ -1476,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 48.26 88.9)
+			(xy 43.18 88.9) (xy 45.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1503,6 +1633,16 @@
 			(type default)
 		)
 		(uuid "76b82558-16fd-44fa-bd67-4f78199da0f5")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7838910f-9f82-4486-ae4a-eb8ea8b2fdd4")
 	)
 	(wire
 		(pts
@@ -1566,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 194.31 76.2)
+			(xy 168.91 76.2) (xy 181.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1626,6 +1766,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 88.9) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89f9a60-d883-4506-89fe-cc9bf4e6c146")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6d2ffa-8ac9-412e-ab8e-16826bc4401f")
+	)
+	(wire
+		(pts
 			(xy 83.82 88.9) (xy 88.9 88.9)
 		)
 		(stroke
@@ -1643,6 +1803,16 @@
 			(type default)
 		)
 		(uuid "b20e60b8-e4e3-4271-81dc-a0f348266c3f")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29de750-b5e7-4829-8f22-87623090c345")
 	)
 	(wire
 		(pts
@@ -1673,6 +1843,16 @@
 			(type default)
 		)
 		(uuid "b9a15a65-5808-42a1-951f-ca3e1cd5c563")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0913f5-4e0b-42f5-a779-b8599a420c52")
 	)
 	(wire
 		(pts
@@ -1816,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 110.49 88.9)
+			(xy 100.33 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3204,6 +3384,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aeef1dc-57cc-431d-8507-e4c2537cf509")
+		(property "Reference" "TP6"
+			(at 184.15 80.7719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.15 83.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c810450b-823b-4dff-b063-3060db9f8e3f")
+		)
+		(instances
+			(project "msr20"
+				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acf6031d-f747-4e65-93de-eca48b5deab3")
+		(property "Reference" "TP4"
+			(at 48.26 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9837d16a-d509-4d0e-a4b1-dd72fbb2f69c")
+		)
+		(instances
+			(project "msr20"
+				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 101.6 0)
 		(unit 1)
@@ -3550,6 +3864,73 @@
 			(project "msr20"
 				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e206b1d5-0e28-4f31-a5d6-ec9874d8646a")
+		(property "Reference" "TP5"
+			(at 109.22 94.7419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 97.2819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1383d5b9-9d7e-4e5a-a3e4-a9ffa820b63c")
+		)
+		(instances
+			(project "msr20"
+				(path "/827e4c90-6b76-4aba-b6da-8b66ea005818/585458a5-998e-4f63-a5a4-45d71155a4e5"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
