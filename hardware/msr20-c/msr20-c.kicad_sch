@@ -10,6 +10,44 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 139.7 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "841913b6-5fbe-4f9b-b6b5-daa29caf24de")
+		(property "Sheetname" "IF Stage"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "if.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "msr20-c"
+				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 38.1)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
@@ -39,10 +77,68 @@
 				(justify left top)
 			)
 		)
+		(pin "IF" output
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b57d127b-bbb6-4536-9779-c17e644e566f")
+		)
+		(pin "LO" input
+			(at 101.6 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e51fa3f-59bc-4b3b-a794-07d57d8d580e")
+		)
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1de7ee2-5c1c-4a91-a494-9460fbe8fb93")
+		(property "Sheetname" "Phase-locked loop"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pll.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "msr20-c"
+				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
+					(page "4")
 				)
 			)
 		)

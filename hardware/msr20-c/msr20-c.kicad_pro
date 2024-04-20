@@ -389,6 +389,14 @@
     [
       "c9c41028-bd5c-45d5-9f40-d2ea8ca6f8e9",
       "RF Stage"
+    ],
+    [
+      "841913b6-5fbe-4f9b-b6b5-daa29caf24de",
+      "IF Stage"
+    ],
+    [
+      "f1de7ee2-5c1c-4a91-a494-9460fbe8fb93",
+      "Phase-locked loop"
     ]
   ],
   "text_variables": {}
