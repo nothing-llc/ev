@@ -9,6 +9,16 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 101.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4160da47-df31-4648-bbb5-a7230eb1168e")
+	)
 	(sheet
 		(at 139.7 38.1)
 		(size 25.4 12.7)
@@ -134,6 +144,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "IN" input
+			(at 63.5 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3df2f57c-b1ae-4c3c-ae49-955e993fd33f")
+		)
+		(pin "OUT" output
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c504c04-bdda-4f32-9704-8d50ccab37fd")
 		)
 		(instances
 			(project "msr20-c"
