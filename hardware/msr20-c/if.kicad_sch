@@ -2472,7 +2472,7 @@
 		)
 		(uuid "e4a0ab1b-2508-4824-a312-78aac2968f04")
 	)
-	(hierarchical_label "ADC-SCK"
+	(hierarchical_label "SCK"
 		(shape output)
 		(at 144.78 152.4 0)
 		(fields_autoplaced yes)
@@ -2484,7 +2484,7 @@
 		)
 		(uuid "136de6af-e36b-4bb0-a57f-9c5d602a2b87")
 	)
-	(hierarchical_label "ADC-CS"
+	(hierarchical_label "CS"
 		(shape output)
 		(at 144.78 156.21 0)
 		(fields_autoplaced yes)
@@ -2508,7 +2508,7 @@
 		)
 		(uuid "aa55949a-c5fe-4ab1-9d76-8910a0cc9408")
 	)
-	(hierarchical_label "ADC-SDA"
+	(hierarchical_label "SDA"
 		(shape output)
 		(at 144.78 148.59 0)
 		(fields_autoplaced yes)
