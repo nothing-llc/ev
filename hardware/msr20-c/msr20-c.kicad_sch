@@ -2944,7 +2944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2b17d8-caa8-4aa6-82ce-de4cff3751f4")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR017"
 			(at 66.04 157.48 0)
 			(effects
 				(font
@@ -2994,7 +2994,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR048")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185d8cf4-637b-4bfc-b16b-5700822da5a2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR01"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -3060,7 +3060,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR050")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3076,7 +3076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a582805-e894-4fca-b5f5-14fa69f718fd")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 168.91 124.46 90)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.91 132.588 90)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3144,7 +3144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8b047b-846c-4a19-b2ab-a94d5b649e8a")
-		(property "Reference" "C17"
+		(property "Reference" "C1"
 			(at 179.07 135.8899 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.2252 140.97 0)
 			(effects
 				(font
@@ -3198,7 +3198,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "C17")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3214,7 +3214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43cf7819-55be-4b86-848b-50d6d7c33390")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 55.88 105.4099 0)
 			(effects
 				(font
@@ -3232,7 +3232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac13c94-f45c-455b-b3a4-d0148242b5ef")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR015"
 			(at 100.33 146.05 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR043")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4caae842-50fb-443d-8a7b-b4032bdeca20")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 55.88 143.5099 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 58.42 143.51 0)
 			(effects
 				(font
@@ -3417,7 +3417,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3433,7 +3433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de91b4d-bba4-44c5-9584-85628a9a25c5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR04"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -3483,7 +3483,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR051")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3499,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67beffa3-1664-40d0-98eb-45f35063ce52")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR010"
 			(at 100.33 133.35 0)
 			(effects
 				(font
@@ -3550,7 +3550,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR042")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3dce81-bfa1-442b-82a2-9c5f5a47bef5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR09"
 			(at 86.36 132.08 0)
 			(effects
 				(font
@@ -3616,7 +3616,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR046")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "704c20d7-826d-44ab-a5e1-ec7483746045")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR011"
 			(at 153.67 133.35 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR039")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9124801d-2ad4-4933-b4c6-2a775c7bf6b8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR012"
 			(at 187.96 142.24 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR053")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3832,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bc77e5-cab3-49f0-aab1-2db1a2e81c1d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR05"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR045")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a4f271-9d08-4a8b-9064-8ef6f097b078")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR03"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR037")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3966,7 +3966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99336630-5e97-4982-a6d7-18ece602a5b5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR02"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR040")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4033,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae6926df-f271-4b34-bcdc-5bf62dbb0d47")
-		(property "Reference" "R18"
+		(property "Reference" "R3"
 			(at 90.17 133.3499 0)
 			(effects
 				(font
@@ -4051,7 +4051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 134.62 90)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "R18")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c283e64f-fde9-43a6-9f3c-80b35c2b6447")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 77.47 133.3499 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.882 134.62 90)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5192c79-22f1-4957-a500-3923eee8baec")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8274baf-ff4b-49ca-981f-0188da3db142")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR016"
 			(at 153.67 146.05 0)
 			(effects
 				(font
@@ -4415,7 +4415,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR038")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4431,7 +4431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3acb0ad-3be1-447a-b669-c0be32aeb2aa")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR08"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -4481,7 +4481,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR047")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e95b303b-6ef5-4299-8534-8828a45ae26f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR07"
 			(at 163.83 120.65 0)
 			(effects
 				(font
@@ -4548,7 +4548,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR036")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea06899d-c9b0-440e-954d-eda7c33d1a19")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR014"
 			(at 175.26 149.86 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR052")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4646,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 127 166.37 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec6bfb46-61e7-4abc-bc47-8b9ce04aed0e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR018"
 			(at 138.43 158.75 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR044")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4768,7 +4768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef7c203e-3215-49bc-9306-9d73197101cb")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR013"
 			(at 66.04 142.24 0)
 			(effects
 				(font
@@ -4818,7 +4818,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR049")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4834,7 +4834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3cab81a-1ca5-4201-a4b0-a51979580398")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR06"
 			(at 100.33 120.65 0)
 			(effects
 				(font
@@ -4885,7 +4885,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "#PWR041")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4901,7 +4901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d1d078-c68a-4bc8-b33d-5e691dded483")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 196.85 130.8099 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 195.58 130.81 0)
 			(effects
 				(font
@@ -4955,7 +4955,7 @@
 		(instances
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5093,6 +5093,44 @@
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec9c1f93-91a0-4de7-b821-982b55e0215e")
+		(property "Sheetname" "Power"
+			(at 203.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 203.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "msr20-c"
+				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1"
+					(page "5")
 				)
 			)
 		)
