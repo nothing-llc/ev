@@ -5,7 +5,8 @@
 	(uuid "3d24e86e-b070-4f0e-8c28-04e9dd9d95d1")
 	(paper "USLetter")
 	(title_block
-		(date "2024-04-20")
+		(title "MSR-20")
+		(date "2024-04-29")
 		(rev "1")
 	)
 	(lib_symbols

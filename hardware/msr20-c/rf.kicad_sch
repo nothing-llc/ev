@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "47075d2f-1fef-441e-99b4-fa315726c72f")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "RF Stage")
+		(date "2024-04-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -2796,7 +2801,7 @@
 	)
 	(text "Low-Noise Amplifier"
 		(exclude_from_sim no)
-		(at 38.1 24.13 0)
+		(at 25.4 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)

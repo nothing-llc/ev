@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "9707b51d-1736-4462-b822-968c87432f56")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "IF Stage")
+		(date "2024-04-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
