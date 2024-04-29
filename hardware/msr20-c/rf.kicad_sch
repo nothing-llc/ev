@@ -2226,6 +2226,12 @@
 		(uuid "e0fa5e2d-c9d2-4c06-ba1a-4a5698abaa5b")
 	)
 	(junction
+		(at 160.02 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e40bee50-30e4-4ff3-aa85-e74d9febb5a4")
+	)
+	(junction
 		(at 95.25 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2293,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 176.53 77.47)
+			(xy 144.78 77.47) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2320,6 +2326,26 @@
 			(type default)
 		)
 		(uuid "2e6ba7e8-f774-41a5-b304-42cefafdeabe")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a88e6a-e2dd-481d-8521-670f0f3f923e")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3810020a-1c1c-4dde-a435-45cd2831d438")
 	)
 	(wire
 		(pts
@@ -4394,6 +4420,72 @@
 			(project "msr20-c"
 				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1/c9c41028-bd5c-45d5-9f40-d2ea8ca6f8e9"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f975cf54-2b7b-44d7-a63c-868d8a1ca2cf")
+		(property "Reference" "TP2"
+			(at 155.956 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 155.956 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c3cfc2-579b-44e7-9e7d-c5a71b78f5d6")
+		)
+		(instances
+			(project "msr20-c"
+				(path "/3d24e86e-b070-4f0e-8c28-04e9dd9d95d1/c9c41028-bd5c-45d5-9f40-d2ea8ca6f8e9"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
